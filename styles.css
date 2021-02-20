@@ -1,0 +1,33 @@
+* {
+    font-family: Sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+}
+
+.split-2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.score-block {
+    width: 50%;
+}
+
+.selection {
+    font-size: 1.2em;
+    font-weight: bolder;
+    height: 2em;
+    padding: auto;
+    text-transform: uppercase;
+}
+
+.result, .winner {
+    height: 2em;
+}
